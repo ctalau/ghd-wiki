@@ -107,8 +107,11 @@ unzip SaxonHE9-7-0-10J.zip -d saxon9/ >> extract.log 2>>extract.log
 head -n 10 extract.log
 echo "..."
 
-REPONAME=`echo $REPOSITORY_URL | cut -d '/' -f 5`
-USERNAME=`echo $REPOSITORY_URL | cut -d '/' -f 4`
+echo "Using REPOSITORY_URL $REPOSITORY_URL" 
+SLUG=`echo $REPOSITORY_URL | sed 's/git@github.com://' | sed 's/https:\/\/.*github.com\///'`
+echo "Slug: $SLUG"
+USERNAME=`echo $SLUG | cut -d '/' -f 1`
+REPONAME=`echo $SLUG | cut -d '/' -f 2`
 
 echo "====================================="
 echo "publish: $USERNAME/$REPONAME "
