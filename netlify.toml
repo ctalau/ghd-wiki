@@ -3,5 +3,5 @@
   publish = "out/wiki/"
 
 [template.environment]
-  WEBHELP_LICENSE = "Quoted Oxygen XML WebHelp license string - http://oxygenxml.com/xml_webhelp/register.html"
+  WEBHELP_LICENSE = "WebHelp license (in quotes): https://bit.ly/2MOqfHI"
 
