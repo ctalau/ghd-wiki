@@ -1,6 +1,11 @@
 [build]
   command = "bash publish.sh"
   publish = "out/wiki/"
+  
+[build.environment]
+  TEMPLATE = "green"
+  TITLE = "Sample DITA Wiki"
+  VARIANT = "tiles"
 
 [template.environment]
   WEBHELP_LICENSE = "WebHelp license (in quotes): https://bit.ly/2MOqfHI"
