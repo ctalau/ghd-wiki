@@ -12,7 +12,7 @@ To get the same functionality under your account, you need to click the button b
 <!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ctalau/ghd-wiki )
 
-Fill the WEBHELP_LICENSE variable under *Environment Variables* by setting its value to the oXygen Webhelp license key, eclosed in quotes - this will be used by the publishing process to build the webhelp output. You can obtain a trial license from 
+Fill the WEBHELP_LICENSE variable under *Settings* > *Build & Deploy* > *Build environment eariables* by setting its value to the oXygen Webhelp license key, eclosed in quotes - this will be used by the publishing process to build the webhelp output. You can obtain a trial license from 
 [http://oxygenxml.com/xml_webhelp/register.html](http://oxygenxml.com/xml_webhelp/register.html)  
 
 ##Note
