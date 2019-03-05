@@ -27,5 +27,25 @@
     <p>For more details on supported formats, along with standard DITA topics please see the <xref
         href="topic.dita"/> and <xref href="markdown.md" format="markdown">Markdown</xref>
       pages.</p>
+    <p>This is an equation <mathml>
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </mathml></p>
   </body>
 </topic>
